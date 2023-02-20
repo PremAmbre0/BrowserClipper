@@ -1,27 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        .scrapper-conatiner{
-        height: 100vh;
-        width: 40vw;
-        padding: 1%;
-        }
-        .scrapper-content{
-        height:100%;
-        width: 100%;
-}
-    </style>
     <title>Document</title>
 </head>
+
 <body>
     <div>
         <button>
-            <a href="javascript:(function(){let script = document.createElement('script');script.src = 'http://localhost:3000/';document.body.appendChild(script);})()">xyz</a>
+            <a
+                href="javascript:(function(){if(document.readyState==='complete'){constcssStyleSheet=`/sidebarcontainer/\.clipper-sidebar{\position:fixed;\z-index:9999999999;\top:0;\right:0;\width:370px;\height:100vh;\transition:right0.3s;\background-color:#e8f4f5;\box-shadow:0015px2pxrgba(0,0,0,0.5);\transition:right0.5sease-in-out;\}\\.clipper-sidebar.clipper-sidebar--collapsed{\right:-370px;\}\.clipper-iframe{\overflow:auto;\width:100%;\height:100%;\border:none;\}\\.clipper-toggle{\position:fixed;\top:17px;\right:370px;\width:31px;\height:30px;\cursor:pointer;\transition:0.3s;\border-radius:5px005px;\background:#f8434a;\box-shadow:-3px1px8px0rgb(000/30%);\transition:right0.5sease-in-out;\}\.clipper-toggle:before,\.clipper-toggle:after{\position:absolute;\left:10px;\display:block;\width:13px;\height:3px;\content:'';\background:#fff;\}\.clipper-toggle:before{\top:10px;\transform:rotate(45deg);\}\.clipper-toggle:after{\bottom:10px;\transform:rotate(-45deg);\}\\/collapsedstatefortogglebutton/\.clipper-sidebar--collapsed.clipper-toggle\{right:0;\}\.clipper-sidebar--collapsed.clipper-toggle:\before{transform:rotate(135deg);\}\.clipper-sidebar--collapsed.clipper-toggle:\after{transform:rotate(-135deg);\}\`;varstyleSheet=document.createElement('style')styleSheet.innerText=cssStyleSheet;document.head.appendChild(styleSheet);letsidebar=document.createElement('div');sidebar.classList.add('clipper-sidebar');letsidebarBtn=document.createElement('div');sidebarBtn.classList.add('clipper-toggle');letifrm=document.createElement('iframe');ifrm.classList.add('clipper-iframe');ifrm.src='http://localhost:8080/';sidebar.appendChild(ifrm)sidebar.appendChild(sidebarBtn)document.body.appendChild(sidebar);sidebarBtn.addEventListener('click',()=>{sidebarBtn.classList.toggle('clipper-sidebar--collapsed');sidebar.classList.toggle('clipper-sidebar--collapsed');})}else alert('waitforthepagetoloadcompletely...')})">xyz</a>
         </button>
     </div>
 </body>
+
 </html>
